@@ -1,5 +1,7 @@
 body {
     display:flex;
+    padding-left: 10%;
+    padding-top: 10%;
   }
   
   h1 {
@@ -20,6 +22,7 @@ body {
   
   .div1{
     background-color: #f2ebd9;
+    background-image: "garden-roses-floral-design-watercolor-painting-clip-art-autumn.jpg";
     border: #c7c6c5;
     border-radius: 30vh 30vh 0 0;
     border-style: solid;
@@ -28,19 +31,27 @@ body {
     }
 
     .square {
+        background: url(/toprightborder.png) no-repeat;
+        background-size: 75%;
+        background-position:top right;
+        background-color: #f2ebd9;
         height: flex;
         width: flex;
-        border: 1vh solid black;
         padding-left: 1%;
         padding-right: 1%;
     }
 
     .left-image{
-        width: 20%;
-        float: left;
+        background: url(/leftborder.png) no-repeat;
+        background-size: stretch;
+        background-position: left;
+        height: flex;
+        width: flex;
+        transform: translateX(-7%);
     }
 
     .right-image{
+        background: url(/leftborder.png) no-repeat;
         width: 20%;
         float:right;
     }
