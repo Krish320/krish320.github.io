@@ -1,14 +1,7 @@
 body {
     align-content: center;
     align-items: center;
-    background: rgb(170, 61, 61);
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    height: 100vh;
-    justify-content: flex-start;
-    margin: 0px;
-    width: 100vw;
   }
   
   h1 {
@@ -19,8 +12,21 @@ body {
   p {
     font-family: verdana;
     font-size: 20px;
+    text-align: center;
   }
   
   .pi {
     font:italic
   }
+
+  .div1{
+    background-color: #231f20;
+    border: #c7c6c5;
+    border-style: solid;
+    border-width: 10px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    }
