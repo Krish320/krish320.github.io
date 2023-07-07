@@ -1,7 +1,9 @@
 body {
     display:flex;
     padding-left: 10%;
-    padding-top: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
   
   h1 {
@@ -12,7 +14,7 @@ body {
   p {
     color:#a9682e;
     font-family: Marck Script;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
   }
 
@@ -20,38 +22,48 @@ body {
     box-sizing: border-box;
   }
   
-  .div1{
+  .container{
+    height:100%;
+    width:100%;
+    position: relative;
+    margin: 1%;
     background-color: #f2ebd9;
-    background-image: "garden-roses-floral-design-watercolor-painting-clip-art-autumn.jpg";
+    
+  }
+
+  .div1{
+    padding-top: 15em;
     border: #c7c6c5;
-    border-radius: 30vh 30vh 0 0;
     border-style: solid;
     border-width: 10px;
     text-align: center;
-    }
-
-    .square {
-        background: url(/toprightborder.png) no-repeat;
-        background-size: 75%;
-        background-position:top right;
-        background-color: #f2ebd9;
-        height: flex;
-        width: flex;
-        padding-left: 1%;
-        padding-right: 1%;
     }
 
     .left-image{
         background: url(/leftborder.png) no-repeat;
         background-size: stretch;
         background-position: left;
-        height: flex;
-        width: flex;
-        transform: translateX(-7%);
+        height: auto;
+        width: auto;
     }
 
     .right-image{
-        background: url(/leftborder.png) no-repeat;
-        width: 20%;
-        float:right;
+        background: url(/rightborder.png) no-repeat;
+        background-size: stretch;
+        background-position: right;
+    }
+
+    .top-left-image{
+        background: url(/topleftborder.png) no-repeat;
+        background-size: 75%;
+        z-index: 9;
+    }
+
+    .top-right-image{
+        position: absolute;
+        background: url(/toprightborder.png) no-repeat;
+        background-size: 75%;
+        background-position: top right;
+        top: 0;
+        left: 0;
     }
