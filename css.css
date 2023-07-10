@@ -27,7 +27,7 @@
 
     .top-left-image{
         background: url(/assets/topleftborder.png) no-repeat;
-        background-size: 50%;
+        background-size: 75%;
         background-position: top left;
         z-index: 9;
     }
@@ -35,7 +35,7 @@
     .top-right-image{
         position: absolute;
         background: url(/assets/toprightborder.png) no-repeat;
-        background-size: 50%;
+        background-size: 75%;
         background-position: top right;
         top: 0;
         left: 0;
