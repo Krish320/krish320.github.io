@@ -1,0 +1,18 @@
+{
+    "translations_vi": 
+    [
+        {
+            "carte": "Menu a la Carte",
+            "starter": "Món ăn đầu tiên",
+            "item_1": "Ravioli rau với sốt phô mai và tôm.",
+            "fish": "cá cá",
+            "item_2":"Corvall Địa Trung Hải với hạt điều, ô liu đen, cà chua, kẹo anh đào và húng quế",
+            "meat": "Thịt",
+            "item_3": "Thịt cừu ngâm sữa ở nhiệt độ thấp với tỏi và hương thảo.",
+            "dessert": "Món tráng miệng",
+            "item_4": "Sữa chua panna cotta và thạch trái cây đỏ.",
+            "cake": "Bánh",
+            "item_5": "Bánh hạnh nhân sô cô la sữa."
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "translations_en": 
+    [
+        {
+            "carte": "Menu a la Carte",
+            "starter": "Starter",
+            "item_1": "Vegetable ravioli with cheese sauce and prawns.",
+            "fish": "Fish",
+            "item_2":"Mediterranean Corvall with cashews, black olives, tomatoes, candied cherry and basil.",
+            "meat": "Meat",
+            "item_3": "Lamb shoulder in milk at low temperature with garlic and rosemary.",
+            "dessert": "Dessert",
+            "item_4": "Yogurt panna cotta and red fruit jelly.",
+            "cake": "Cake",
+            "item_5": "Brownie with milk chocolate."
+        }
+    ]
+}

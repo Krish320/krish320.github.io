@@ -1,0 +1,18 @@
+{
+    "translations_ca": 
+    [
+        {
+            "carte": "Menu a la Carte",
+            "starter": "Primer Plat",
+            "item_1": "Raviolis de verdures amb salsa de formatge i llagostins.",
+            "fish": "Peix",
+            "item_2":"Corvall mediterrani amb anacards, olives negres, tomaques cherry confitades i alfabega.",
+            "meat": "Carn",
+            "item_3": "Espatlla de xai de llet a baixa temperatura amb alls i romaní.",
+            "dessert": "Postres",
+            "item_4": "Panacota de yogurt i gelé de fruits vermells.",
+            "cake": "Pastis",
+            "item_5": "Brownie amb xocolata amb llet."
+        }
+    ]
+}
