@@ -14,7 +14,7 @@ else
     usrlang = "en";
 
 window.translate = () => {
-    
+
     let json_ca = JSON.stringify(translations_ca);
     let json_ca_Parse = JSON.parse(json_ca);
 
@@ -24,22 +24,35 @@ window.translate = () => {
     let json_ro = JSON.stringify(translations_ro);
     let json_ro_Parse = JSON.parse(json_ro);
 
-    let usr_lng = usrlang.slice(0,2);
+    let usr_lng = usrlang.slice(0, 2);
 
-    if (usr_lng == "en") {
-        let json_en = JSON.stringify(translations_en);
-        let json_en_Parse = JSON.parse(json_en);
+    if (usr_lng == "ca") {
+        setLanguage(translations_ca, "translations_ca");
+    }
 
-        const menu = document.getElementById("starter");
-        
-        translate(json_en_Parse, "translations_en");
+    else if (usr_lng == "ro") {
+        setLanguage(translations_ro, "translations_ro");
+    }
+
+    else if (usr_lng == "vi") {
+        setLanguage(translations_vi, "translations_vi");
+    }
+
+    else {
+        setLanguage(translations_en, "translations_en");
     }
 };
 
-function translate(json_parse, json_lng){
+function translate(json_parse, json_lng) {
     for (let z in json_parse[json_lng][0]) {
-        const menu = document.getElementById(z);
-        menu.innerHTML = json_parse[json_lng][0][z];
-        console.log(json_parse[json_lng][0][z]);                   
+        const HTML_element = document.getElementById(z);
+        HTML_element.innerHTML = json_parse[json_lng][0][z];
+        console.log(json_parse[json_lng][0][z]);
     }
+}
+
+function setLanguage(jsonName, jsonNameString) {
+    let json = JSON.stringify(jsonName);
+    let jsonParse = JSON.parse(json);
+    translate(jsonParse, jsonNameString);
 }
