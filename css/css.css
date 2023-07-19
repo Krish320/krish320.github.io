@@ -3,7 +3,6 @@
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow: hidden;
   }
 
   h1 {
@@ -162,6 +161,6 @@
 
  .menu-text {
   position: relative;
-  height: 100%;
+  height: 90%;
   width: 100%;
  }
