@@ -43,7 +43,9 @@
   .container-border {
     height: 100%;
     width: 100%;
-
+    border: double;
+    box-sizing: border-box;
+    border-color: #a9682e;
     background-color: rgba(242, 235, 217, 0.5);
   }
 
@@ -124,11 +126,6 @@
     top:0;
     display: flex;
     justify-content: center;
-    border-left: double;
-    border-right: double;
-    border-top: double;
-    box-sizing: border-box;
-    border-color: #a9682e;
   }
 
   .menu-top img {
@@ -139,7 +136,6 @@
     max-height: 194px;
     object-position: center top;
     object-fit: contain;
-    transform: translateY(-15%);
   }
 
   .menu-items {
@@ -159,12 +155,6 @@
 
  .menu-text {
   bottom: 0;
-  display: flexbox;
   height: 90%;
   width: 100%;
-  border-left: double;
-  border-right: double;
-  border-bottom: double;
-  box-sizing: border-box;
-  border-color: #a9682e;
  }
