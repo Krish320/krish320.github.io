@@ -27,7 +27,7 @@ function translate(json_parse, json_lng) {
     for (let z in json_parse[json_lng][0]) {
         const HTML_element = document.getElementById(z);
         HTML_element.innerHTML = json_parse[json_lng][0][z];
-        console.log(json_parse[json_lng][0][z]);
+        //console.log(json_parse[json_lng][0][z]);
     }
 }
 
