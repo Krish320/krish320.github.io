@@ -3,6 +3,7 @@
     height: 100%;
     margin: 0;
     padding: 0;
+    overflow: hidden;
   }
 
   h1 {
@@ -40,11 +41,9 @@
   }
 
   .container-border {
-    border-style: double;
-    border-color: #a9682e;
     height: 100%;
     width: 100%;
-    box-sizing: border-box;
+
     background-color: rgba(242, 235, 217, 0.5);
   }
 
@@ -125,6 +124,11 @@
     top:0;
     display: flex;
     justify-content: center;
+    border-left: double;
+    border-right: double;
+    border-top: double;
+    box-sizing: border-box;
+    border-color: #a9682e;
   }
 
   .menu-top img {
@@ -158,4 +162,9 @@
   display: flexbox;
   height: 90%;
   width: 100%;
+  border-left: double;
+  border-right: double;
+  border-bottom: double;
+  box-sizing: border-box;
+  border-color: #a9682e;
  }
