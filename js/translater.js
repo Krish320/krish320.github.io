@@ -1,25 +1,39 @@
-"use strict";
+//import translations_ca from "../lng/catalan.json" assert { type: 'json'};;
+//import translations_en from "../lng/english.json" assert { type: 'json'};;
+//import translations_vi from "../lng/vietnamese.json" assert { type: 'json'};;
+//import translations_ro from "../lng/romanian.json" assert { type: 'json' };;
 
-import translations_ca from "../lng/catalan.json" assert { type: 'json' };;
-import translations_en from "../lng/english.json" assert { type: 'json'};;
-import translations_vi from "../lng/vietnamese.json" assert { type: 'json'};;
-import translations_ro from "../lng/romanian.json" assert { type: 'json' };;
+async function populate(json_filepath, json_lng) {
+    const requestURL = json_filepath;
+    const request = new Request(requestURL);
 
-window.translate = () => {
+    const response = await fetch(request);
+    const jsonText = await response.json();
+    
+    //const superHeroes = JSON.parse(jsonText);
+    translate(jsonText, json_lng)
+}
+
+window.addEventListener("load", (event) => {
+    building()
+    //console.log("page is fully loaded");
+ });
+
+function building() {
 
     let usr_lng = getUserLanguage().slice(0, 2);
 
     if (usr_lng == "ca") {
-        setLanguage(translations_ca, "translations_ca");
+        populate("/lng/catalan.json", "translations_ca")
     }
     else if (usr_lng == "ro") {
-        setLanguage(translations_ro, "translations_ro");
+        populate("/lng/romanian.json", "translations_ro")
     }
     else if (usr_lng == "de") {
-        setLanguage(translations_vi, "translations_vi");
+        populate("/lng/vietnamese.json", "translations_vi")
     }
     else {
-        setLanguage(translations_en, "translations_en");
+        populate("/lng/english.json", "translations_en")
     }
 }
 
@@ -29,12 +43,6 @@ function translate(json_parse, json_lng) {
         HTML_element.innerHTML = json_parse[json_lng][0][z];
         //console.log(json_parse[json_lng][0][z]);
     }
-}
-
-function setLanguage(jsonName, jsonNameString) {
-    let json = JSON.stringify(jsonName);
-    let jsonParse = JSON.parse(json);
-    translate(jsonParse, jsonNameString);
 }
 
 function getUserLanguage() {
