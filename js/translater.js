@@ -29,7 +29,7 @@ function building() {
     else if (usr_lng == "ro") {
         populate("/lng/romanian.json", "translations_ro")
     }
-    else if (usr_lng == "de") {
+    else if (usr_lng == "vi") {
         populate("/lng/vietnamese.json", "translations_vi")
     }
     else {
