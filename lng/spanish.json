@@ -2,16 +2,16 @@
     "translations_es": 
     [
         {
-            "carte": "Menu a la Carte",
-            "starter": "plato de imprimación",
-            "item_1": "Raviolis de verduras con salsa de queso y langostinos.",
-            "fish": "Pez",
-            "item_2":"Corvallo mediterráneo con anacardos, aceitunas negras, tomates cherry confitados y alfabega.",
+            "carte": "Menú",
+            "starter": "Arrancador",
+            "item_1": "Raviolis de verduras con salsa de queso y gambas.",
+            "fish": "Pescado",
+            "item_2":"Corvall mediterráneo con anacardos, aceitunas negras, tomates, cereza confitada y albahaca.",
             "meat": "Carne",
-            "item_3": "Hombro de cordero lechal a baja temperatura con ajos y romero.",
+            "item_3": "Paletilla de cordero en leche a baja temperatura con ajo y romero.",
             "dessert": "Postre",
             "item_4": "Panacota de yogur y gelé de frutos rojos.",
-            "cake": "pastis",
+            "cake": "Tarta",
             "item_5": "Brownie con chocolate con leche."
         }
     ]

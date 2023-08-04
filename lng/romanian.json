@@ -2,16 +2,16 @@
     "translations_ro": 
     [
         {
-            "carte": "Menu a la Carte",
+            "carte": "Menu",
             "starter": "Primul fel de mâncare",
             "item_1": "Ravioli de legume cu sos de brânză și creveți.",
-            "fish": "peşte",
+            "fish": "Peşte",
             "item_2":"Corvall mediteranean cu caju, măsline negre, roșii, cireșe confiate și busuioc.",
-            "meat": "carne",
+            "meat": "Carne",
             "item_3": "Umăr de miel în lapte la temperatură scăzută cu usturoi și rozmarin.",
-            "dessert": "deserturi",
+            "dessert": "Deserturi",
             "item_4": "Iaurt panna cotta și jeleu de fructe roșii.",
-            "cake": "prăjituri",
+            "cake": "Prăjituri",
             "item_5": "Brownie cu ciocolată cu lapte."
         }
     ]
