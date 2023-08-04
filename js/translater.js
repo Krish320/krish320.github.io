@@ -26,6 +26,9 @@ function building() {
     if (usr_lng == "ca") {
         populate("/lng/catalan.json", "translations_ca")
     }
+    else if (usr_lng == "es") {
+        populate("/lng/spanish.json", "translations_es")
+    }
     else if (usr_lng == "ro") {
         populate("/lng/romanian.json", "translations_ro")
     }
