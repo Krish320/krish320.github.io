@@ -1,0 +1,23 @@
+{
+    "translations_vi": 
+    [
+        {
+            "carte": "Thực đơn",
+            "starter": "Món ăn đầu tiên",
+            "item_1": "Ravioli.",
+            "item_1_desc": "rau với sốt phô mai và tôm.",
+            "fish": "Cá",
+            "item_2":"Corvall Địa Trung",
+            "item_2_desc":"Hải với hạt điều, ô liu đen, cà chua, kẹo anh đào và húng quế",
+            "meat": "Thịt",
+            "item_3": "Thịt cừu ngâm",
+            "item_3_desc": "sữa ở nhiệt độ thấp với tỏi và hương thảo.",
+            "dessert": "Món tráng miệng",
+            "item_4": "Sữa chua panna cotta",
+            "item_4_desc": "và thạch trái cây đỏ.",
+            "cake": "Bánh",
+            "item_5": "Bánh",
+            "item_5_desc": "hạnh nhân sô cô la sữa."
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "translations_en": 
+    [
+        {
+            "carte": "Menu",
+            "starter": "Starter",
+            "item_1": "Vegetable ravioli",
+            "item_1_desc": "with cheese sauce and prawns.",
+            "fish": "Fish",
+            "item_2":"Mediterranean Corvall",
+            "item_2_desc":"with cashews, black olives, tomatoes, candied cherry and basil.",
+            "meat": "Meat",
+            "item_3": "Lamb shoulder in milk",
+            "item_3_desc":"at low temperature with garlic and rosemary.",
+            "dessert": "Dessert",
+            "item_4": "Yogurt panna cotta",
+            "item_4_desc":"with red fruit jelly.",
+            "cake": "Cake",
+            "item_5": "Brownie",
+            "item_5_desc":"with milk chocolate."
+        }
+    ]
+}

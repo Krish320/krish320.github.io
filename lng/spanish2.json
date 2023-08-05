@@ -1,0 +1,23 @@
+{
+    "translations_es": 
+    [
+        {
+            "carte": "Menú",
+            "starter": "Arrancador",
+            "item_1": "Raviolis",
+            "item_1_desc": "de verduras con salsa de queso y gambas.",
+            "fish": "Pescado",
+            "item_2":"Corvall mediterráneo",
+            "item_2_desc":"con anacardos, aceitunas negras, tomates, cereza confitada y albahaca.",
+            "meat": "Carne",
+            "item_3": "Paletilla de cordero",
+            "item_3_desc": "en leche a baja temperatura con ajo y romero.",
+            "dessert": "Postre",
+            "item_4": "Panacota de yogur",
+            "item_4_desc": "y gelé de frutos rojos.",
+            "cake": "Tarta",
+            "item_5": "Brownie",
+            "item_5_desc": "con chocolate con leche."
+        }
+    ]
+}
