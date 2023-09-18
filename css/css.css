@@ -10,7 +10,7 @@
     margin: 0;
     padding-top: 0.75em;
     padding-bottom: 0.25em;
-    color: #c99240;
+    color: #bd5200;
     font-family: Carattere;
     text-align: center;
     text-decoration: underline;
@@ -21,9 +21,9 @@
     margin: 0;
     padding: 0;
     border: 0;
-    color: #c99240;
+    color: #bd5200;
     font-family: Playfair Display;
-    font-size: 15px;
+    font-size: 17px;
     font-style: italic;
     text-align: center;
     padding-left: 1em;
@@ -34,9 +34,9 @@
     margin: 0;
     padding: 0;
     border: 0;
-    color: #c99240;
+    color: #bd5200;
     font-family: Playfair Display;
-    font-size: 12.5px;
+    font-size: 14px;
     font-style: italic;
     text-align: center;
     font-weight: normal;
@@ -54,6 +54,11 @@
     height: 100%;
     width: 100%;
     background-image: url(/img/Line_paper.png);
+  }
+
+  .flagcontainer img {
+    height: 100%;
+    width: 100%;
   }
 
   .container-border {
@@ -94,9 +99,9 @@
 
   .logo {
     height: 60%;
-    max-height: 60%;
+    max-height: 40%;
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: center;
     overflow: hidden;
   }

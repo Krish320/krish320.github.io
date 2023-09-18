@@ -15,11 +15,48 @@ async function populate(json_filepath, json_lng) {
 }
 
 window.addEventListener("load", (event) => {
-    building()
     //console.log("page is fully loaded");
- });
+    language();
+});
 
-function building() {
+//split url
+function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+        }
+    }
+    return false;
+}
+
+function language() {
+    let lang = getUrlParameter("lang");
+
+    if (lang == "cat") {
+        populate("/lng/catalan2.json", "translations_ca")
+    }
+    else if (lang == "spa") {
+        populate("/lng/spanish2.json", "translations_es")
+    }
+    else if (lang == "rom") {
+        populate("/lng/romanian2.json", "translations_ro")
+    }
+    else if (lang == "vie") {
+        populate("/lng/vietnamese2.json", "translations_vi")
+    }
+    else if (lang == "eng") {
+        populate("/lng/english2.json", "translations_en")
+    }
+}
+
+/*function building() {
 
     let usr_lng = getUserLanguage().slice(0, 2);
 
@@ -38,7 +75,7 @@ function building() {
     else {
         populate("/lng/english2.json", "translations_en")
     }
-}
+}*/
 
 function translate(json_parse, json_lng) {
     for (let z in json_parse[json_lng][0]) {
@@ -48,7 +85,7 @@ function translate(json_parse, json_lng) {
     }
 }
 
-function getUserLanguage() {
+/*function getUserLanguage() {
     let usrlang;
     if (navigator.userLanguage) // Explorer
         usrlang = navigator.userLanguage;
@@ -58,4 +95,4 @@ function getUserLanguage() {
         usrlang = "en";
 
     return usrlang;
-}
+}*/
