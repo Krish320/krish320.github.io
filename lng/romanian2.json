@@ -2,8 +2,8 @@
     "translations_ro": 
     [
         {
-            "carte": "Meniul",
-            "starter": "Primul fel de mâncare",
+            "carte": "Meniu",
+            "starter": "Felul întâi",
             "item_1": "Ravioli",
             "item_1_desc": "de legume cu sos de brânză și creveți.",
             "fish": "Peşte",
@@ -17,7 +17,7 @@
             "item_4_desc": "și jeleu de fructe roșii.",
             "cake": "Prăjituri",
             "item_5": "Brownie",
-            "item_5_desc": "cu ciocolată cu lapte."
+            "item_5_desc": "de ciocolata cu lapte"
         }
     ]
 }
